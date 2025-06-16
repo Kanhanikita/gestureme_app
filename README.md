@@ -1,28 +1,48 @@
 GestureMe
+GestureMe is a mobile application that uses Artificial Intelligence and Computer Vision to enable hands-free control of smart devices through intuitive hand gestures. Designed with accessibility and interactivity in mind, it allows users to control functions like screen brightness, volume, and navigation using real-time gesture recognition via their device's camera.
 
-GestureMe is a mobile application that leverages Artificial Intelligence and Computer Vision to enable hands-free control of smart devices using natural hand gestures. Built with Flutter and integrated with TensorFlow Lite and MediaPipe-style hand landmark models, this app allows users to interact with their devices through real-time gesture recognition via the camera.
+Built with Flutter, and integrated with TensorFlow Lite and MediaPipe-style hand landmark models, GestureMe brings seamless gesture-based interaction to mobile platforms.
 
-In this project, I trained and deployed a gesture classification model that recognizes key hand gestures such as an open palm, fist, peace sign, and pointing finger. These gestures are mapped to common device actions like adjusting brightness, changing volume, or moving a cursor—bringing a new level of accessibility and interactivity.
+🚀 Key Features
+Real-time Gesture Recognition
+Detects and classifies hand gestures like open palm, fist, peace sign, and pointing finger using a custom-trained model.
 
-This app demonstrates the practical application of AI in human-computer interaction, particularly for accessibility use cases where touch interfaces may not be viable. It's ideal for smart home environments, AR/VR experiences, or assistive technology.
+Device Control Integration
+Gestures are mapped to common device functions such as:
 
-Key Features:
+Adjusting brightness
 
-Real-time gesture recognition using AI
-TensorFlow Lite model integration for fast on-device inference
-Control device functions like brightness, volume, and navigation
-Cross-platform development with Flutter
-Targeted for mobile deployment
+Controlling volume
 
-Tech Stack:
-Flutter, Dart
+Navigating or simulating cursor movements
+
+On-Device AI Inference
+Leveraging TensorFlow Lite for fast and efficient gesture recognition without relying on a cloud connection.
+
+Cross-Platform Compatibility
+Developed using Flutter for smooth performance on both Android and iOS devices.
+
+🧠 Tech Stack
+Flutter / Dart
+
 TensorFlow Lite
+
 Camera Plugin
-Custom-trained gesture recognition model
-MediaPipe-style landmark extraction
 
-Real-World Use Case: GestureMe addresses real-world accessibility and convenience challenges by enabling touchless device control, which is crucial in environments where touch interaction is limited—such as medical settings, smart homes, or for users with motor impairments.
+Custom Gesture Recognition Model
 
+MediaPipe-style Landmark Extraction
+
+🌍 Real-World Use Cases
+GestureMe tackles real-world accessibility and convenience challenges by enabling touchless device interaction, which is especially valuable in:
+
+Smart home environments
+
+AR/VR applications
+
+Medical and sterile settings
+
+Assistive technology for individuals with motor impairments
 <img width="500" alt="Screenshot 2025-04-20 at 12 00 05 PM" src="https://github.com/user-attachments/assets/68730d8c-1d64-440e-9184-b73979e33338" />
 <img width="500" alt="Screenshot 2025-04-20 at 11 59 57 AM" src="https://github.com/user-attachments/assets/2eb5a08a-57c3-48e7-8086-48d4c5db056c" />
 <img width="500" alt="Screenshot 2025-04-20 at 12 00 24 PM" src="https://github.com/user-attachments/assets/833b8327-cf44-4f85-b90e-af4b6d0f1ad3" />
