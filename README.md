@@ -1,5 +1,7 @@
 # GestureMe
 
+Work in progress. Any feedback or suggestions or help would be appreciated ! :)
+
 **GestureMe** is a mobile application that uses Artificial Intelligence and Computer Vision to enable **hands-free control of smart devices** through intuitive hand gestures. Designed with accessibility and interactivity in mind, it allows users to control functions like screen brightness, volume, and navigation using real-time gesture recognition via their device's camera.
 
 Built with **Flutter**, and integrated with **TensorFlow Lite** and **MediaPipe-style hand landmark models**, GestureMe brings seamless gesture-based interaction to mobile platforms.
